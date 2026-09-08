@@ -20,7 +20,7 @@ export const Header: React.FC<HeaderProps> = ({ currentScreen, onSelectScreen })
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight">
-                  Student Group Scheduler
+                  Group Meeting Scheduler
                 </h1>
                 <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
                   {INVENTED_GROUP.academicWeek}
@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({ currentScreen, onSelectScreen })
             }`}
           >
             <Clock className="w-4 h-4 shrink-0" />
-            <span className="truncate">Screen 1: Free Slots</span>
+            <span className="truncate">Free Slots</span>
           </button>
 
           <button
@@ -67,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({ currentScreen, onSelectScreen })
             }`}
           >
             <Share2 className="w-4 h-4 shrink-0" />
-            <span className="truncate">Screen 2: Group & Link</span>
+            <span className="truncate">Group & Link</span>
           </button>
 
           <button
@@ -81,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({ currentScreen, onSelectScreen })
             }`}
           >
             <Users className="w-4 h-4 shrink-0" />
-            <span className="truncate">Screen 3: Meeting Found</span>
+            <span className="truncate">Meeting Found</span>
           </button>
         </nav>
       </div>

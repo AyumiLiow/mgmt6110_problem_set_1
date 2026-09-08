@@ -111,7 +111,7 @@ END:VCALENDAR`;
         <div className="flex items-center gap-2 mb-2">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/20 text-white backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-            SCREEN 3: Common Meeting Time Found
+            Common Meeting Time Found
           </span>
           <span className="text-xs font-medium text-emerald-100 hidden sm:inline">
             100% Attendance Rate
@@ -236,22 +236,6 @@ END:VCALENDAR`;
           </div>
         </div>
 
-        {/* Team Task Preparation Checklist */}
-        <div className="border-t border-slate-100 pt-4 space-y-2">
-          <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">
-            Preparation Before Meeting
-          </span>
-          <div className="space-y-1.5">
-            {INVENTED_CONFIRMED_MEETING.preparationNotes.map((note, index) => (
-              <div key={index} className="flex items-start gap-2 text-xs text-slate-700">
-                <span className="w-4 h-4 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
-                  {index + 1}
-                </span>
-                <span>{note}</span>
-              </div>
-            ))}
-          </div>
-        </div>
 
         {/* Action Buttons: WhatsApp/Telegram Share & Calendar Export */}
         <div className="border-t border-slate-100 pt-4 flex flex-col sm:flex-row gap-3">
@@ -293,7 +277,7 @@ END:VCALENDAR`;
             onClick={onGoToSlots}
             className="text-xs font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1 cursor-pointer"
           >
-            View all 7 in Screen 1
+            View all 7 free slots
             <ChevronRight className="w-3.5 h-3.5" />
           </button>
         </div>
@@ -345,7 +329,7 @@ END:VCALENDAR`;
           className="font-bold text-slate-600 hover:text-slate-900 flex items-center gap-1 cursor-pointer"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
-          Back to Screen 1: Available Time Slots
+          Back to Available Time Slots
         </button>
 
         <button
@@ -353,7 +337,7 @@ END:VCALENDAR`;
           onClick={onGoToGroup}
           className="font-bold text-slate-600 hover:text-slate-900 flex items-center gap-1 cursor-pointer"
         >
-          Manage group & schedules in Screen 2 →
+          Manage group & schedules →
         </button>
       </div>
     </div>

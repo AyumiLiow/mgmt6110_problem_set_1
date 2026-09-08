@@ -90,7 +90,7 @@ export default function App() {
             }`}
           >
             <Clock className="w-5 h-5" />
-            <span>1. Free Slots</span>
+            <span>Free Slots</span>
           </button>
 
           <button
@@ -104,7 +104,7 @@ export default function App() {
             }`}
           >
             <Share2 className="w-5 h-5" />
-            <span>2. Group & Link</span>
+            <span>Group & Link</span>
           </button>
 
           <button
@@ -118,7 +118,7 @@ export default function App() {
             }`}
           >
             <Users className="w-5 h-5" />
-            <span>3. Meeting Found</span>
+            <span>Meeting Found</span>
           </button>
         </div>
       </div>

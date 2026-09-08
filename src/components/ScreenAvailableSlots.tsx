@@ -32,7 +32,7 @@ export const ScreenAvailableSlots: React.FC<ScreenAvailableSlotsProps> = ({
         <div className="flex flex-wrap items-center justify-between gap-3 mb-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            SCREEN 1: All 5 Students Available
+            All 5 Students Available
           </div>
           <span className="text-xs font-semibold text-slate-500">
             Singapore Time (SGT)
@@ -72,7 +72,7 @@ export const ScreenAvailableSlots: React.FC<ScreenAvailableSlotsProps> = ({
             onClick={onGoToGroup}
             className="text-xs font-semibold text-blue-600 hover:text-blue-700 underline underline-offset-2 flex items-center gap-1 cursor-pointer"
           >
-            View member schedules in Screen 2
+            View member schedules
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>

@@ -77,7 +77,7 @@ export const ScreenCreateAndShare: React.FC<ScreenCreateAndShareProps> = ({
       <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-xs">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200 mb-2">
           <Users className="w-3.5 h-3.5" />
-          SCREEN 2: Group Setup & Availability Matrix
+          Group Setup & Availability Matrix
         </div>
         <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
           Group Management & Team Availability
@@ -405,7 +405,7 @@ export const ScreenCreateAndShare: React.FC<ScreenCreateAndShareProps> = ({
               onClick={onGoToMeetingFound}
               className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold rounded-lg shrink-0 flex items-center gap-1.5 shadow-xs cursor-pointer"
             >
-              <span>View Meeting Found (Screen 3)</span>
+              <span>View Meeting Found</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
@@ -543,7 +543,7 @@ export const ScreenCreateAndShare: React.FC<ScreenCreateAndShareProps> = ({
             onClick={onGoToSlots}
             className="font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 cursor-pointer"
           >
-            ← See all 7 100% available slots in Screen 1
+            ← See all 7 100% available slots
           </button>
 
           <button
@@ -551,7 +551,7 @@ export const ScreenCreateAndShare: React.FC<ScreenCreateAndShareProps> = ({
             onClick={onGoToMeetingFound}
             className="font-bold text-slate-800 hover:text-black flex items-center gap-1 cursor-pointer"
           >
-            View confirmed common meeting time in Screen 3 →
+            View confirmed common meeting time →
           </button>
         </div>
       </div>
