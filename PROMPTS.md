@@ -40,7 +40,7 @@ so in one line rather than burying it.
 ```
 remove the location option. all meetings are conducted virtually via Zoom. change nothing else.
 ```
-**What came back:** Correct, 4 file touched. Meeting platform edit to display "Virtual via Zoom".
+**What came back:** Correct, 4 files touched. Meeting platform edit to display "Virtual via Zoom".
 **What I changed next and why:**  Removed the "Location" options on the available time slots, based on the assumption that all group meetings are conducted online. 
 
 ---
@@ -64,7 +64,7 @@ change the header "common free time slots this week" to "This Week's Time Slots"
 Screen 2:
 under student info, remove the "course, year", and replace with SMU email address (eg. darren.tan.2026@smu.edu.sg)
 ```
-**What came back:** Correct, 4 files touched. Header updated. Generated standardized SMU email addresses for remaining group members following the format of my example (first.last.year@smu.edu.sg), which is helpful. 
+**What came back:** Correct, 4 files touched. Header updated. Generated standardized SMU email addresses for remaining group members following the format based on my given example (first.last.year@smu.edu.sg), which is was helpful. 
 **What I changed next and why:** Student information of "Course" and "Year of Studies" is less relevant for the meeting and unrelated to scheduling since students are taking the same module. 
 ---
 
@@ -74,7 +74,7 @@ remove section. change nothing else.
 
 ```
 **What came back:** Correct, 1 file touched. 
-**What I changed next and why:** minor aesthetic edit, too wordy. 
+**What I changed next and why:** minor aesthetic edit, did not like the sub-header generated as it was too wordy. - on hindsight, this prompt was unnecessary as i ended up re-adding the section. lapse on my end. 
 
 ---
 
@@ -84,8 +84,8 @@ add a subheading below this header.
 with the text
 "See when your friends are free. Find a time that works." change nothing else.
 ```
-**What came back:** Correct, 1 files touched. Sub-header updated. 
-**What I changed next and why:** More description to the header of "This Week's Time Slots", to give users a better understanding of the app's objective. 
+**What came back:** Correctly updated, 1 files touched. Sub-header updated. 
+**What I changed next and why:** More description to the header of "This Week's Time Slots", to give users more clarity and a better understanding of the app's objective. tested how the screen looked with and without the sub-header
 
 ---
 
@@ -100,4 +100,4 @@ remove "in screen 2". change nothing else.
 remove section. change nothing else.
 ```
 **What came back:** Correct, 1 files touched. Header title updated. Navigation labels cleaned. 
-**What I changed next and why:** Removed placeholders eg. "Screen 1", to keep interface more simple and digestible for users. 
+**What I changed next and why:** Did not remove from master prompt the placeholders, hence wanted to remove them eg. "Screen 1", to keep interface more simple and digestible for users. 
