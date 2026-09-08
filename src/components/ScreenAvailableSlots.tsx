@@ -19,8 +19,9 @@ export const ScreenAvailableSlots: React.FC<ScreenAvailableSlotsProps> = ({
 
   const filteredSlots = INVENTED_AVAILABLE_SLOTS.filter((slot) => {
     if (selectedDay !== 'All' && slot.day !== selectedDay) return false;
-    if (minDuration === '1.5hr+' && (slot.duration === '1 hour')) return false;
-    if (minDuration === '2hr' && slot.duration !== '2 hours') return false;
+    if (minDuration === '0.5hr' && !slot.duration.includes('0.5')) return false;
+    if (minDuration === '1hr' && slot.duration !== '1 hour') return false;
+    if (minDuration === '1.5hr+' && (slot.duration === '1 hour' || slot.duration.includes('0.5'))) return false;
     return true;
   });
 
@@ -39,10 +40,10 @@ export const ScreenAvailableSlots: React.FC<ScreenAvailableSlotsProps> = ({
         </div>
 
         <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
-          Common Free Time Slots This Week
+          This Week's Time Slots
         </h2>
         <p className="text-sm sm:text-base text-slate-600 mt-1">
-          Automatically calculated by comparing the full weekly timetables of all 5 team members.
+          See when your friends are free. Find a time that works.
         </p>
 
         {/* Member Avatar Summary Row */}
@@ -103,7 +104,7 @@ export const ScreenAvailableSlots: React.FC<ScreenAvailableSlotsProps> = ({
 
         <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
           <span className="font-semibold text-slate-600">Duration:</span>
-          {['All', '1.5hr+', '2hr'].map((dur) => (
+          {['All', '0.5hr', '1hr', '1.5hr+'].map((dur) => (
             <button
               id={`filter-duration-${dur}`}
               key={dur}

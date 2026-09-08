@@ -3,7 +3,8 @@ export type DayOfWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Frida
 export interface StudentMember {
   id: string;
   name: string;
-  major: string;
+  email: string;
+  major?: string;
   initials: string;
   color: string;
   avatarBg: string;

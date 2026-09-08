@@ -319,7 +319,7 @@ export const ScreenCreateAndShare: React.FC<ScreenCreateAndShareProps> = ({
                       {member.status}
                     </span>
                   </div>
-                  <p className="text-xs text-slate-500 truncate">{member.major}</p>
+                  <p className="text-xs text-slate-500 truncate font-mono">{member.email}</p>
                   <p className="text-[10px] text-slate-400 mt-1">{member.submittedTime}</p>
                 </div>
               </div>

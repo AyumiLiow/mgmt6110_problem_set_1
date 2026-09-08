@@ -9,6 +9,7 @@ export const INVENTED_STUDENTS: StudentMember[] = [
   {
     id: 's1',
     name: 'Li Ting',
+    email: 'liting.2024@smu.edu.sg',
     major: 'Business Analytics, Year 3',
     initials: 'LT',
     color: '#0284c7', // blue
@@ -19,6 +20,7 @@ export const INVENTED_STUDENTS: StudentMember[] = [
   {
     id: 's2',
     name: 'Darren Tan',
+    email: 'darren.tan.2026@smu.edu.sg',
     major: 'Information Systems, Year 2',
     initials: 'DT',
     color: '#16a34a', // green
@@ -29,6 +31,7 @@ export const INVENTED_STUDENTS: StudentMember[] = [
   {
     id: 's3',
     name: 'Farhan Rahim',
+    email: 'farhan.rahim.2024@smu.edu.sg',
     major: 'Economics & Computing, Year 3',
     initials: 'FR',
     color: '#9333ea', // purple
@@ -39,6 +42,7 @@ export const INVENTED_STUDENTS: StudentMember[] = [
   {
     id: 's4',
     name: 'Chloe Chen',
+    email: 'chloe.chen.2025@smu.edu.sg',
     major: 'Accountancy, Year 2',
     initials: 'CC',
     color: '#ea580c', // orange
@@ -49,6 +53,7 @@ export const INVENTED_STUDENTS: StudentMember[] = [
   {
     id: 's5',
     name: 'Marcus Wong',
+    email: 'marcus.wong.2024@smu.edu.sg',
     major: 'Business Management, Year 3',
     initials: 'MW',
     color: '#0d9488', // teal
@@ -331,8 +336,8 @@ export const INVENTED_AVAILABLE_SLOTS: CommonAvailableSlot[] = [
     day: 'Monday',
     dateStr: '14 Sep 2026',
     startTime: '12:00',
-    endTime: '13:00',
-    duration: '1 hour',
+    endTime: '12:30',
+    duration: '0.5 hour',
     availableCount: 5,
     totalMembers: 5,
     meetingPlatform: 'Virtual via Zoom',
