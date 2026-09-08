@@ -1,0 +1,6 @@
+{
+  "name": "Student Group Scheduler",
+  "description": "A student scheduling web app for Singapore university project teams to automatically find common free time slots this week.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
